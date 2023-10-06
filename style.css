@@ -23,19 +23,6 @@ img {
     aspect-ratio: 1;
     border-radius: 50%;
 
-    animation: rotate linear both;
-    animation-timeline: view();
-    animation-range: entry 100% cover 100%;
-}
-
-@keyframes rotate {
-    0% {
-        rotate: 0deg;
-    }
-    50% {
-        rotate: 180deg;
-    }
-    100% {
-        rotate: 360deg;
-    }
+    rotate: 0;
+    transition: rotate 1s liner;
 }
