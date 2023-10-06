@@ -9,9 +9,11 @@ body {
 
 main {
     height: 200dvh;
+    background-color: red;
 }
 
 section {
+    background-color: blue;
     position: fixed;
     inset: 0;
     height: 100dvh;
