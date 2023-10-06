@@ -5,10 +5,12 @@ html {
 body {
     margin: 0;
     min-height: 100dvh;
+    width: 100dvw;
 }
 
 main {
     height: 200dvh;
+    width: 100dvw;
     background-color: red;
 }
 
@@ -17,6 +19,7 @@ section {
     position: fixed;
     inset: 0;
     height: 100dvh;
+    width: 100dvw;
     display: grid;
     place-items: center;
 }
