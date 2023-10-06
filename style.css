@@ -11,11 +11,13 @@ section {
     position: fixed;
     inset: 0;
     height: 100dvh;
-    display: grid;
-    place-items: center;
 }
 
 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
     height: 50%;
     aspect-ratio: 1;
     border-radius: 50%;
