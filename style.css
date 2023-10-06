@@ -16,6 +16,7 @@ section {
 }
 
 img {
-    height: auto;
+    height: 50%;
+    aspect-ratio: 1;
     border-radius: 50%;
 }
