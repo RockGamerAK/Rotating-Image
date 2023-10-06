@@ -18,7 +18,24 @@ img {
     top: 50%;
     left: 50%;
     translate: -50% -50%;
+
     height: 50%;
     aspect-ratio: 1;
     border-radius: 50%;
+
+    animation: rotate linear both;
+    animation-timeline: view();
+    animation-range: entry 100% cover 50%;
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0;
+    }
+    50% {
+        rotate: 180;
+    }
+    100% {
+        rotate: 360;
+    }
 }
