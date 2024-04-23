@@ -23,6 +23,12 @@ img {
     aspect-ratio: 1;
     border-radius: 50%;
 
-    rotate: 0;
-    transition: rotate 1s liner;
+    animation: rotate linear both;
+    animation-timeline: scroll(root block);
+}
+
+@keyframes rotate {
+    to {
+        rotate: 1turn;
+    }
 }
