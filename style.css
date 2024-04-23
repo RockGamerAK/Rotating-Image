@@ -1,7 +1,9 @@
 body {
+    --size: 5;
+
     margin: 0;
     min-height: 100dvh;
-    height: 500dvh;
+    height: calc(var(--size)*100dvh);
 }
 
 main {
@@ -26,6 +28,6 @@ img {
 
 @keyframes rotate {
     to {
-        rotate: 1turn;
+        rotate: calc(var(--size)*1turn);
     }
 }
